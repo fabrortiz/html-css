@@ -1,0 +1,11 @@
+border borda (linha que circunda o conteudo)
+padding preenchimento borda pra dentro
+margin borda pra fora
+outline trasejado contornando o elemento
+
+Tipos de CAIXA
+box-level
+pula para linha de baixo e cria a caixa
+
+inline-level
+não pula pra linha de baixo

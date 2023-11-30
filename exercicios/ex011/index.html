@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente ou diminua o tamanho de seu navegador</p>
+
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        
+        <img src="imagens/foto-g.png" alt="Foto G">
+
+        <h2>Agora ouça essa música mlkote</h2>
+        <p> Clique abaixo para escutar o audio</p>
+
+        <audio preload="none"   autoplay controls
+        <source src="midia/Society's Dream - Mini Vandals.mp3" type="audio/mpeg">
+
+
+        ></audio>
+
+    
+
+
+    </picture>
+</body>
+</html>
